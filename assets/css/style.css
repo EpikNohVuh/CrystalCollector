@@ -1,0 +1,63 @@
+body {
+    box-sizing: content-box;
+}
+.container {
+    width: 960px;
+    text-align: center;
+    margin: 0 auto;
+}
+.header {
+    max-width: 960px;
+    background-color: blueviolet;
+    border-radius: 6px;
+    margin:10px;
+}
+h1 {
+    padding: 60px 60px 60px 60px;
+    color:white;
+    margin: 0 auto;
+}
+
+.divCard {
+    border:2px solid blueviolet;
+    border-radius:.3rem;
+    margin:10px 10px  20px 10px;
+}
+
+.cardHeader {
+    max-width: 960px;
+    background-color: blueviolet;
+    padding: 15px;
+    color:white;
+    border-bottom:0px;
+}
+.instructions {
+    max-width: 960px;
+    background-color: white;
+    border-radius: 0 0 6px 6px;
+    padding:20px;
+    text-align: left;
+
+}
+.cardContent {
+    max-width: 960px;
+    background-color: white;
+    border-radius: 0 0 6px 6px;
+    padding:30px;
+    text-align:center;
+    font-weight:bolder;
+    font-size: 25px;
+
+}
+.flex1 {
+    flex: 1;
+}
+.flex2 {
+    flex: 2;
+}
+.row {
+    display: flex;
+}
+#crystal {
+    align-self: center;
+}
