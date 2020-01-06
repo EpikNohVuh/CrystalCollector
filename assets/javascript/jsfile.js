@@ -1,5 +1,3 @@
-
-
 //create variables & setting to zero.
 var wins = 0;
 var losses = 0;
@@ -55,7 +53,7 @@ function score(){
 //Creating a function that resets appropriate score counts, and reconfigures new game gem values.
 
 function reset(){
-    var targetScore = Math.floor(Math.random() * 102) + 19; 
+    targetScore = Math.floor(Math.random() * 102) + 19; 
     console.log("targetScore: " + targetScore); 
     $("#targetScore").html(targetScore); 
         
@@ -71,7 +69,8 @@ function reset(){
     var gemRed = Math.floor(Math.random() * 12) + 1; 
         console.log("gemRed: " + gemRed); 
 
-    var yourScore = 0;
+    yourScore = 0;
+
     $("#yourScore").html(yourScore);
     
 }
