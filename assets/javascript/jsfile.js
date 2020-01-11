@@ -57,16 +57,16 @@ function reset(){
     console.log("targetScore: " + targetScore); 
     $("#targetScore").html(targetScore); 
         
-    var gemBlue = Math.floor(Math.random() * 9) + 1; 
+    gemBlue = Math.floor(Math.random() * 9) + 1; 
         console.log("gemBlue: " + gemBlue); 
 
-    var gemPurple = Math.floor(Math.random() * 10) + 1; 
+    gemPurple = Math.floor(Math.random() * 10) + 1; 
         console.log("gemPurple: " + gemPurple); 
 
-    var gemYellow = Math.floor(Math.random() * 11) + 1; 
+    gemYellow = Math.floor(Math.random() * 11) + 1; 
         console.log("gemYellow : " + gemYellow ); 
 
-    var gemRed = Math.floor(Math.random() * 12) + 1; 
+    gemRed = Math.floor(Math.random() * 12) + 1; 
         console.log("gemRed: " + gemRed); 
 
     yourScore = 0;
